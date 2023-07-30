@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--lang means language, its an attribute to the html element-->
+<!--en is the english language-->
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!--A tag with the http-equiv attribute set to “X-UA-Compatible” 
+        and the content attribute set to 
+        “IE=edge” is used to force Internet Explorer (IE) to use the latest version of the rendering engine-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--HTML5 introduced a method to let web designers take control over the viewport, through the <meta> tag.
+
+You should include the following <meta> viewport element in all your web pages:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+This gives the browser instructions on how to control the page's dimensions and scaling.
+
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.-->
+
+
+    <title>Credit Card Ui Design</title>
+<link rel="stylesheet" href="style.css"/>
+<!--The <link> tag defines the relationship between the current document and an external resource.
+
+The <link> tag is most often used to link to external style sheets or to add a favicon to your website.-->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">
+                <img src="images/logo.png" alt=""/>
+                <h5>Credit Card</h5>
+            </span>
+            <img src="images/chip.png" alt="" class="chip"/>
+        </header>
+
+        <div class="card-details">
+            <div class="name-number">
+                <h6>Card Number</h6>
+            <h5 class="number">4583 0062 1880 8263</h5>
+            <h5 class="name">Eyerusalem Yonas</h5>
+            </div>
+            <div class="Expiry-date">
+                <h6>Month/year </h6>
+                <h5>12/24</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
